@@ -1,0 +1,18 @@
+name: license_automator
+description: A simple license automation tool that scans Flutter dependencies and generates license reports.
+version: 1.0.0
+repository: https://github.com/rexRUBY/license_automator.git
+homepage: https://github.com/rexRUBY/license_automator.git
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  dart_pubspec_licenses: ^3.0.12
+  pana: ^0.22.16
+  path: ^1.9.1
+  package_config: ^2.1.0
+  args: ^2.7.0
+
+executables:
+  generate:
