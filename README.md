@@ -77,11 +77,11 @@ including `path_provider`.
 
 <details open> <summary>🇰🇷 한국어</summary>
 <br>
-이 툴은 Flutter 프로젝트의 모든 의존성 라이선스 정보를 **SPDX 타입(라이선스 종류)까지 정확하게** 분석하여 **하나의 JSON 파일로** 생성합니다.
+이 툴은 Flutter 프로젝트의 모든 의존성 라이선스 정보를 <b>SPDX 타입(라이선스 종류)</b>까지 정확하게 분석하여 하나의 JSON 파일로 생성합니다.
 
 ## 🚀 왜 만들었는가?
 
-기존의 `dart_pubspec_licenses` 툴은 편리하지만, `path_provider` 같은 일부 패키지의 SPDX(라이선스 타입)를 **탐지하지 못하는** 치명적인 결함이 있습니다.
+기존의 `dart_pubspec_licenses` 툴은 편리하지만, `path_provider` 같은 일부 패키지의 SPDX(라이선스 타입)를 탐지하지 못하는 치명적인 결함이 있습니다.
 
 이 툴은 `dart_pubspec_licenses`의 '패키지 정보 수집' 기능과 `pub.dev`가 실제로 사용하는 `pana`의 '정확한 라이선스 타입 분석' 엔진을 결합하여 이 문제를 해결했습니다.
 
