@@ -1,4 +1,4 @@
-## 1.0.0
+## 1.0.1
 
 🎉 First stable release  
 - Added automatic license scanning for Flutter dependencies  
