@@ -6,9 +6,8 @@
 This tool scans all dependencies in a Flutter project, analyzes each license including <b>SPDX type</b>,  
 and generates a <b>single JSON file</b> containing all license information.
 
----
 
-### 🚀 Why
+## 🚀 Why
 
 The existing `dart_pubspec_licenses` tool is convenient but fails to detect SPDX types  
 for some packages like `path_provider`.
@@ -17,9 +16,8 @@ This tool combines the **package collection feature** of `dart_pubspec_licenses`
 with the **license analysis engine** of `pana` (used by `pub.dev`)  
 to solve this problem accurately and automatically.
 
----
 
-### 🛠️ Usage
+## 🛠️ Usage
 
 Add this tool to your **main Flutter app** under `dev_dependencies`.
 
@@ -33,10 +31,7 @@ dev_dependencies:
     sdk: flutter
 
   # ▼ Add this tool ▼
-  license_automator:
-    git:
-      url: https://github.com/rexRUBY/license_automator.git
-      ref: main
+  license_automator: ^1.0.0
 ```
 
 #### 2.Run
@@ -101,10 +96,8 @@ dev_dependencies:
     sdk: flutter
   
   # ▼▼▼ 이 툴 추가 ▼▼▼
-  license_automator:
-    git:
-      url: https://github.com/rexRUBY/license_automator.git
-      ref: main
+  license_automator: ^1.0.0
+
 ```
 
 ### 2. 실행
