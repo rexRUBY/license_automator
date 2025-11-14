@@ -48,7 +48,7 @@ including `path_provider`.
   {
     "name": "path_provider",
     "version": "2.1.3",
-    "spdxIdentifiers": ["BSD-3-Clause"],
+    "spdxIdentifiers": "BSD-3-Clause",
     "license": "...",
     "repository": "https://github.com/flutter/plugins/tree/main/packages/path_provider",
     "description": "Flutter plugin for finding commonly used locations on the filesystem."
@@ -121,7 +121,7 @@ flutter pub run license_automator:generate -o assets/json/licenses.json
   {
     "name": "path_provider",
     "version": "2.1.3",
-    "spdxIdentifiers": ["BSD-3-Clause"],
+    "spdxIdentifiers": "BSD-3-Clause",
     "license": "...",
     "repository": "https://github.com/flutter/plugins/tree/main/packages/path_provider",
     "description": "Flutter plugin for finding commonly used locations on the filesystem."
